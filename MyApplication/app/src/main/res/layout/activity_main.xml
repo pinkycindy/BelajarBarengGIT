@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Title"
+        android:layout_weight="0.02"
+        />
+
+    <Button
+        android:id="@+id/Lingkaran"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:text="Lingkaran"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="326dp"
+        android:layout_height="59dp"
+        android:text="Persegi"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="325dp"
+        android:layout_height="63dp"
+        android:text="Trapesium"
+        android:layout_marginLeft="20dp" />
+
+</LinearLayout>
